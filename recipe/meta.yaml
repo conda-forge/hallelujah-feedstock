@@ -1,5 +1,5 @@
 {% set name = "hallelujah" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.4" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/hallelujah-{{ version }}.tar.gz
-  sha256: b54d0225a0e9bde935614e59d98e3b63756d1d102b2dffbecb6a585c2cc139ca
+  sha256: 695cd6ac82329bc1b089dfbd302e9239b4acf0b290e6989cdb94438ea90e4ff1
 
 build:
   entry_points:
